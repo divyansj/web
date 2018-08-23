@@ -1,0 +1,378 @@
+.divbody {
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.headerbg {
+  background-color: #a2c000;
+  border-bottom: 3px #556f04a8;
+  background-image: linear-gradient(#bbda01, #93b000);
+  border-left-color: #b2d200;
+  border-right-color: #b2d200;
+  border-top-color: #b2d200;
+  text-align: center;
+  border-style: solid;
+  border-spacing: 10px;
+  height: 58px;
+  margin-top: -9px;
+}
+
+.headermargin {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+
+.headleft {
+  float: left;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.headright {
+  float: right;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.wordart {
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+
+.wordart .text {
+  letter-spacing: -0.02em;
+  font-size: 0.9em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #6d8208;
+  opacity: 0.9;
+  -webkit-text-stroke-width: 0.4px;
+  text-shadow: 0px 2px 0px #b3d317;
+}
+
+.topbar {
+  color: black;
+  background-color: white;
+  height: 68px;
+}
+
+.topmargin {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 7px;
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+  padding-top: 4px;
+  font-weight: bold;
+}
+
+.menu>ul {
+  list-style-type: none;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+.menu>ul>li {
+  float: left;
+  padding-right: 5px;
+}
+
+.first {
+  background-image: linear-gradient(#563c2b, #523c2c, #4c392a, #453325, #403023, #3d2d20, #3c2c1e);
+  height: 390px;
+  padding: 10px;
+}
+
+.firstmargin {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.para1 {
+  background-image: url(./images/Pennystock_contback.png);
+  height: 81px;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 20px;
+  word-spacing: 3px;
+  box-shadow: 0 0 31px 11px #543c2c inset;
+  width: 1000px;
+}
+
+#par {
+  float: left;
+  word-spacing: 2px;
+  padding-top: 5px;
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  width: 58%;
+}
+
+.image1 {
+  float: left;
+  padding-left: 7px;
+}
+
+.firstmail {
+  float: right;
+  padding-top: 3px;
+  width: 29%;
+  margin-top: -29px;
+}
+
+#horiline {
+  width: 2px;
+  height: 200px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  border-left-color: #3d2b1d;
+  border-right-color: #503e30;
+  border-top-color: #301d10;
+  border-bottom-color: #301d10;
+  background-color: #291709;
+  float: left;
+  margin-top: 18px;
+}
+
+.ban {
+  float: right;
+  width: 100%;
+}
+
+.container {
+  border-radius: 12px;
+  background: url(./images/Pennystock_contsubback.jpg);
+  background-repeat: repeat;
+  height: 238px;
+  font-size: 1em;
+  position: relative;
+  z-index: 2;
+  margin-top: -28px;
+}
+
+.wordart .text2 {
+  letter-spacing: -0.02em;
+  font-size: 1.1em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #301c0b;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-opacity: 0.5;
+  text-shadow: 0px 2px 0px #564532;
+  margin: 0 auto;
+}
+
+.l {
+  text-align: center;
+  width: 33%;
+  float: left;
+  padding-top: 20px;
+}
+
+.m {
+  text-align: center;
+  width: 33%;
+  float: left;
+  padding-top: 20px;
+}
+
+.r {
+  text-align: center;
+  width: 33%;
+  float: left;
+  padding-top: 20px;
+  z-index: 3;
+}
+
+#number {
+  color: #bcce05;
+}
+
+.center {
+  font-size: 19px;
+}
+
+.pear {
+  float: right;
+  margin-top: -91px;
+  z-index: 12;
+  position: relative;
+  margin-left: 31px;
+}
+
+.written {
+  float: left;
+  padding-top: 41px;
+}
+
+.para2 {
+  padding-top: 8px;
+  font-size: 20px;
+  float: left;
+  word-spacing: 2px;
+  letter-spacing: 1.6px;
+}
+
+.second {
+  background-color: #675445;
+  background-image: linear-gradient(#675445, #675445, #675445, #675445, #675444, #675445, #675444, #675445, #7b6858, #8a7c70);
+  padding: 5px;
+  font-size: 0.85rem;
+  height: 446px;
+}
+
+.secondmargin {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#left {
+  float: left;
+  text-align: left;
+  color: #decbbc;
+  width: 569px;
+  word-spacing: -1px;
+  letter-spacing: 0px;
+}
+
+#parpar {
+  line-height: 17px;
+  word-spacing: 0px;
+}
+
+#right {
+  float: right;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.secondmail {
+  width: 30%;
+}
+
+.box {
+  border-radius: 9px;
+  background-image: linear-gradient(#675340, #332115, #332115, #332115, #332115, #332115, #332115, #332115);
+  text-align: left;
+  padding: 10px;
+  border-color: #311f10;
+  border-style: solid;
+  height: 100px;
+  width: 94%;
+}
+
+#left>ol {
+  padding-left: 13px;
+  line-height: 28px;
+  letter-spacing: -0.1px;
+}
+
+.third {
+  font-size: 15px;
+  border-bottom: solid 2px #675240;
+  background-color: #341f0e;
+  height: 47px;
+}
+
+.thirdmargin {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.rss {
+  float: left;
+  position: absolute;
+}
+
+.lorem {
+  float: right;
+  line-height: 50px;
+  word-spacing: 3px;
+  letter-spacing: 0.3px;
+}
+
+.footer {
+  background-color: #3c291a;
+  background-image: linear-gradient(#463020, #312114);
+  font-size: 0.85rem;
+  color: #9f9c44;
+  font-weight: 600;
+  height: 250px;
+}
+
+.footmargin {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tabular {
+  width: 54%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  float: left;
+  margin-left: 186px;
+}
+
+#foot {
+  width: 70%;
+  text-align: left;
+  padding-top: 20px;
+  float: left;
+  color: #9f9c44;
+}
+
+.subs {
+  float: right;
+  padding-top: 25px;
+}
+
+.in {
+  float: right;
+}
+
+.butt {
+  padding-left: 9px;
+  float: right;
+}
+
+#lastline {
+  width: 100%;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-top-color: #3d2b1d;
+  border-bottom-color: #503e30;
+  border-left-color: #301d10;
+  border-right-color: #301d10;
+  background-color: #291709;
+  float: left;
+  height: 2px;
+}
+
+.copyright {}
+
+#leftfoot {
+  float: left;
+  color: #725f50;
+}
+
+#rightfoot {
+  float: right;
+}
