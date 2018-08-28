@@ -3,6 +3,7 @@
   color: white;
   background-color: black;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 
 .headerbg {
@@ -25,6 +26,64 @@
   padding-top: 13px;
 }
 
+#Pennystock_menuback {
+  width: 100%;
+  height: 3px;
+  float: left;
+}
+
+#liniline {
+  width: 100%;
+}
+
+#lini {
+  background-image: linear-gradient(#c5e002, #819e00, #a9c109);
+  border: none;
+  height: 27px;
+  color: white;
+}
+
+#Pennystock_twitter {
+  padding-right: 10px;
+}
+
+#qwee {
+  float: left;
+  padding: 4px;
+  border-radius: 2px;
+  height: 28px;
+}
+
+#Pennystock_footbotimg4 {
+  width: 147px;
+}
+
+#Pennystock_contbotimg {
+  width: 100%;
+}
+
+#Pennystock_contbotimg2 {
+  margin-left: -6px;
+}
+
+#qwe {
+  border-radius: 5px;
+  padding: 7px;
+  width: 100%;
+}
+
+#ab {
+  width: 145px;
+}
+
+#abc {
+  width: 126px;
+}
+
+#abcd {
+  width: 105px;
+}
+
 .headleft {
   float: left;
   text-align: left;
@@ -34,7 +93,7 @@
 .headright {
   float: right;
   margin: 0 auto;
-  padding-top: 7px;
+  padding-top: 4px;
 }
 
 .wordart {
@@ -68,18 +127,22 @@
 
 .logo {
   float: left;
+  width: 20%;
 }
 
 .menu {
   float: right;
   padding-top: 4px;
-  font-weight: bold;
+  font-weight: 700;
+  width: 77%;
+  font-size: 13px;
 }
 
 .menu>ul {
   list-style-type: none;
   padding-left: 0px;
   overflow: hidden;
+  float: right;
 }
 
 .menu>ul>li {
@@ -103,8 +166,8 @@
   height: 81px;
   background-repeat: no-repeat;
   background-position: right;
-  font-size: 20px;
-  word-spacing: 3px;
+  /*! font-size: 20px; */
+  /*! word-spacing: 3px; */
   box-shadow: 0 0 31px 11px #543c2c inset;
   width: 1000px;
 }
@@ -113,9 +176,15 @@
   float: left;
   word-spacing: 2px;
   padding-top: 5px;
-  font-size: 19px;
-  letter-spacing: 1.5px;
-  width: 58%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 46%;
+}
+
+@-moz-document url-prefix() {
+  #par {
+    width: 53%;
+  }
 }
 
 .image1 {
@@ -127,7 +196,6 @@
   float: right;
   padding-top: 3px;
   width: 29%;
-  margin-top: -29px;
 }
 
 #horiline {
@@ -146,7 +214,7 @@
 }
 
 .ban {
-  float: right;
+  /*! float: right; */
   width: 100%;
 }
 
@@ -193,7 +261,7 @@
 
 .r {
   text-align: center;
-  width: 33%;
+  width: 32%;
   float: left;
   padding-top: 20px;
   z-index: 3;
@@ -209,30 +277,33 @@
 
 .pear {
   float: right;
-  margin-top: -91px;
+  margin-top: -78px;
   z-index: 12;
   position: relative;
-  margin-left: 31px;
+  padding-left: 10px;
+  width: 40%;
 }
 
 .written {
   float: left;
   padding-top: 41px;
+  width: 57%;
 }
 
 .para2 {
   padding-top: 8px;
-  font-size: 20px;
+  font-size: 15px;
   float: left;
-  word-spacing: 2px;
-  letter-spacing: 1.6px;
+  word-spacing: 1px;
+  letter-spacing: 1.3px;
+  width: 100%;
 }
 
 .second {
   background-color: #675445;
   background-image: linear-gradient(#675445, #675445, #675445, #675445, #675444, #675445, #675444, #675445, #7b6858, #8a7c70);
   padding: 5px;
-  font-size: 0.85rem;
+  font-size: 13px;
   height: 446px;
 }
 
@@ -246,9 +317,9 @@
   float: left;
   text-align: left;
   color: #decbbc;
-  width: 569px;
+  width: 580px;
   word-spacing: -1px;
-  letter-spacing: 0px;
+  /*! letter-spacing: -1px; */
 }
 
 #parpar {
@@ -263,18 +334,19 @@
 }
 
 .secondmail {
-  width: 30%;
+  width: 90%;
 }
 
 .box {
   border-radius: 9px;
   background-image: linear-gradient(#675340, #332115, #332115, #332115, #332115, #332115, #332115, #332115);
   text-align: left;
-  padding: 10px;
   border-color: #311f10;
   border-style: solid;
   height: 100px;
-  width: 94%;
+  padding-top: 10px;
+  padding-left: 11px;
+  padding-bottom: 10px;
 }
 
 #left>ol {
@@ -284,7 +356,7 @@
 }
 
 .third {
-  font-size: 15px;
+  font-size: 13px;
   border-bottom: solid 2px #675240;
   background-color: #341f0e;
   height: 47px;
@@ -303,8 +375,8 @@
 .lorem {
   float: right;
   line-height: 50px;
-  word-spacing: 3px;
-  letter-spacing: 0.3px;
+  word-spacing: 2px;
+  /*! letter-spacing: 0.3px; */
 }
 
 .footer {
@@ -345,6 +417,7 @@
 
 .in {
   float: right;
+  width: 100%;
 }
 
 .butt {
@@ -375,4 +448,35 @@
 
 #rightfoot {
   float: right;
+}
+
+#Pennystock_cont1img {
+  padding-top: 1px;
+  width: 116px;
+  height: 30px;
+  float: right;
+}
+
+#fmail {
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+  width: 80%;
+}
+
+#Pennystock_contsubimg2 {
+  width: 64%;
+  height: 26px;
+}
+
+#Pennystock_contsubfinal {
+  float: right;
+  margin-top: -201px;
+  z-index: 6;
+  /*! height: 97px; */
+}
+@-moz-document url-prefix() {
+#Pennystock_contsubfinal {
+  margin-top: -204px;
+}
 }
